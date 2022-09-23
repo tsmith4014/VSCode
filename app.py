@@ -1,0 +1,99 @@
+def myemoj(str):
+    words = str.split(" ")
+    emojis = {
+        ':)' : '😄',
+        ':(' : '😭'
+    }
+    greet = ''
+    for word in words:
+        greet += emojis.get(word, word) + " "
+    return greet
+
+
+userinput = input('>')
+print(myemoj(userinput))
+
+
+# message = input("> ")
+# words = message.split(" ")
+# emojis = {
+#     ':)' : '😄',
+#     ':(' : '😭'
+# }
+# greet = ''
+# for word in words:
+#     greet += emojis.get(word, word) + " "
+# print(greet)
+
+# phnum = list(input("phone: "))
+# numdic = {
+#     '1' : "one",
+#     '2' : "two",
+#     '3' : "three",
+#     '4':  "four"
+# }
+# ans = ""
+# for num in phnum:
+#     ans += numdic[num] + " "
+
+# print(ans)
+
+
+
+# numbs = [12,5,8,900,50,900,403,1000,8]
+# numbs.sort()
+# print(numbs)
+# index = 0 - len(numbs)
+# for num in numbs:
+#     if num == numbs[index + 1]:
+#         numbs.remove(num)
+#     else: 
+#         index += 1
+# print(numbs)
+
+# def findmax(arr):
+#     big = arr[0]
+#     for num in arr:
+#         if num > big:
+#             print(num)
+#             big = num
+#     return big
+# print(findmax([12,5,8,900,50,403,1000]))
+
+
+# nums = [5,2,5,2,2]
+# for num in nums:
+#     for inner in
+#  #   print('x' * num)
+
+
+# carinput = ''
+# started = False
+# #while carinput != 'quit':
+# while True:
+#     carinput = input("> ").lower()
+#     if carinput == 'start' and started == False:
+#         print('lets go!!!')
+#         started = True
+#     elif carinput == 'start' and started == True:
+#         print('car already started')
+#     elif carinput == 'stop' and started == True:
+#         print('slowdown')
+#         started = False
+#     elif carinput == 'stop' and started == False:
+#         print('already stopped')
+#     elif carinput == 'help':
+#         print("""
+# start - to start car 
+# stop - to stop car
+# quit - to quit program """)
+#     elif carinput == 'quit':
+#         break
+#     else:
+#         print('sorry dont understand that')
+#         break
+
+
+    # if carinput != 'start' or carinput != 'stop' or carinput != 'quit':
+    #     print('sorry i dont know that command') 
+
