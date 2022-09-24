@@ -1,5 +1,19 @@
-from utils import findMax
-print(findMax([5,90,9000,10,5]))
+# # 2 ways to impoprt packages
+
+# from calendar import c
+# import ecommerce.shipping
+
+# ecommerce.shipping.calcShipping()
+
+# # or a less verbose way
+
+# from ecommerce.shipping import calcShipping
+
+# calcShipping()
+
+
+# from utils import findMax
+# print(findMax([5,90,9000,10,5]))
 
 
 # import converters
