@@ -1,6 +1,6 @@
 def findMax(arr):
-    max = arr[0]
+    maximum = arr[0]
     for num in arr:
-        if num > max:
-            max = num
-    return max
+        if num > maximum:
+            maximum = num
+    return maximum
