@@ -1,8 +1,11 @@
-from pathlib import Path
 
-path = Path()
-for file in path.glob('*.*'): # "*" = all files/directs , '*.*' = all files, *.py, '*.xls" = python or excel
-    print(file)  
+
+
+# from pathlib import Path
+
+# path = Path()
+# for file in path.glob('*.*'): # "*" = all files/directs , '*.*' = all files, *.py, '*.xls" = python or excel
+#     print(file)  
 
 
 
