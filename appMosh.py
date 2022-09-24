@@ -1,8 +1,18 @@
+import utils
+print(findMax([5,90,9000,10,5]))
 
-import converters
 
-print(converters.lbsToKg(180))
+# import converters
 
+# print(converters.lbsToKg(180))
+
+# #even better below
+
+# from converters import kgToLbs
+
+# print(kgToLbs(100))
+
+#holycrap this is awesome!
 
 # #inheritance
 
