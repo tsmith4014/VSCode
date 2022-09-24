@@ -1,4 +1,4 @@
-import utils
+from utils import findMax
 print(findMax([5,90,9000,10,5]))
 
 
