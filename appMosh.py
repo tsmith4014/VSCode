@@ -1,10 +1,21 @@
+# import random
 
+
+# class Dice:
+#     def roll(self):
+#         first = random.randint(1,6)
+#         second = random.randint(1,6)
+#         return (first,second)
+
+
+# dice = Dice()
+# print(dice.roll())
 
 # # 2 ways to impoprt packages
 
-import ecommerce.shipping
+# import ecommerce.shipping
 
-ecommerce.shipping.calcShipping()
+# ecommerce.shipping.calcShipping()
 
 # # or a less verbose way
 
