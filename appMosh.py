@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+=======
+#test by jlt 2022sep23 
+def myemoj(str):
+    words = str.split(" ")
+    emojis = {
+        ':)' : '😄',
+        ':(' : '😭'
+    }
+    greet = ''
+    for word in words:
+        greet += emojis.get(word, word) + " "
+    return greet
+>>>>>>> 98829ddf2f299276749de85a3697d2f8cb4e4587
 
 
 
