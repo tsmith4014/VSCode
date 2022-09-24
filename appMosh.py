@@ -1,9 +1,10 @@
+
+
 # # 2 ways to impoprt packages
 
-# from calendar import c
-# import ecommerce.shipping
+import ecommerce.shipping
 
-# ecommerce.shipping.calcShipping()
+ecommerce.shipping.calcShipping()
 
 # # or a less verbose way
 
