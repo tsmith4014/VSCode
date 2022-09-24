@@ -1,3 +1,5 @@
-def myfun(str):
-    return str
-print(myfun("kewl tested"))
+import converters
+
+print(converters.lbsToKg(178))
+
+

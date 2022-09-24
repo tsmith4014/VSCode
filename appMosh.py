@@ -1,17 +1,75 @@
-def myemoj(str):
-    words = str.split(" ")
-    emojis = {
-        ':)' : '😄',
-        ':(' : '😭'
-    }
-    greet = ''
-    for word in words:
-        greet += emojis.get(word, word) + " "
-    return greet
 
 
-userinput = input('>')
-print(myemoj(userinput))
+
+# #inheritance
+
+# class Mammal:
+#     def walk(self):
+#         print('walk')
+    
+
+# class Dog(Mammal):
+#     def bark(self):
+#         print('bark!')
+
+
+# class Cat(Mammal):
+#     pass
+
+# Vega = Dog()
+# Sketch = Cat()
+
+# Vega.bark()
+# Vega.walk()
+# Sketch.walk()
+
+
+
+# 
+# class Person:
+#     def __init__(self, name):
+#         self.name = name
+#     def talk(self):
+#         print(f'Hi i am {self.name}!')
+
+
+  
+
+# chad = Person('chad')
+# chad.talk()
+# amy = Person('amy')
+# amy.talk()
+# class Point:
+#     def __init__(self, x, y):
+#         self.x = x
+#         self.y = y
+
+#     def move(self):
+#         print('move')
+
+
+#     def draw(self):
+#         print('draw')
+
+# point = Point(10,20)
+# print(point.y)
+
+
+#test by jlt 2022sep23 
+# def myemoj(str):
+#     words = str.split(" ")
+#     emojis = {
+#         ':)' : '😄',
+#         ':(' : '😭'
+#     }
+#     greet = ''
+#     for word in words:
+#         greet += emojis.get(word, word) + " "
+#     return greet
+
+
+# userinput = input('>')
+# print(myemoj(userinput))
 
 
 # message = input("> ")
