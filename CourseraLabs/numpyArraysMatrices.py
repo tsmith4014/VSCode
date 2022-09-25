@@ -13,8 +13,8 @@ import matplotlib as plt
 
 # #basic operations
 
-# X = np.array([[1,0], [0,1]])
-# Y = np.array([[2,2], [2,2]])
+X = np.array([[1,0], [0,1]])
+Y = np.array([[2,2], [2,2]])
 
 
 # # Z = X + Y
@@ -29,10 +29,10 @@ import matplotlib as plt
 
 # # print(M)
 
-# Multi = np.dot(X,Y)
-# print(Multi)
+Multi = np.dot(X,Y)
+print(Multi)
 
-# a = np.array([-1,1])
-# b = np.array([1,1])
-# print(np.dot(a,b))
+a = np.array([-1,1])
+b = np.array([1,1])
+print(np.dot(a,b))
 
