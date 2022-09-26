@@ -26,7 +26,6 @@ Y = np.array([[2,2], [2,2]])
 # # print(Q)
 
 # # M = X * Y
-
 # # print(M)
 
 Multi = np.dot(X,Y)
@@ -35,4 +34,5 @@ print(Multi)
 a = np.array([-1,1])
 b = np.array([1,1])
 print(np.dot(a,b))
+
 
