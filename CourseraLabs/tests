@@ -14,10 +14,15 @@
 #     if i != 2:
 #         print(i)
 
-import numpy as np
+# import numpy as np
 
 
-a=np.array([1,1,1,1,1])
-b=np.array([1,0,1,0,1])
+# a=np.array([1,1,1,1,1])
+# b=np.array([1,0,1,0,1])
 
-print(a+1)
+# print(a+1)
+
+list = [1,2,3,4]
+print(list[::2])
+A=("a","b","c")
+print()
